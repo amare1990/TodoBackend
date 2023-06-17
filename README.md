@@ -1,9 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -30,18 +26,11 @@
 
 # 📖 Todo-Backend <a name="about-project"></a>
 
-> Todo-Backend is a web application API for CRUD operations on todos. It is built with Django rest framweork package.
+> **Todo-Backend** a web application API designed to create API endpoints for CRUD operations on todo items. It is built with the Django rest framework package.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
 
 <details>
   <summary>Based on Apache Web Server</summary>
@@ -49,7 +38,12 @@
     <li><a href="https://www.apache.org/">Apache web server</a></li>
   </ul>
 </details>
-
+<details>
+  <summary>Back-end Framework</summary>
+  <ul>
+    <li><a href="https://www.djangoproject.com/">Django</a></li>
+  </ul>
+</details>
 <details>
 <summary>Database</summary>
   <ul>
@@ -60,9 +54,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Uses Serializer class from rest_framework to change model objects into native python data.**
+- **Uses Serializers class from rest_framework to change model objects into native python data.**
 - **Creates API end points for the creation, fetching, updating and deletion of Todo model data.**
-- **The API end points are supposed to be consumed bt another application using react library.**
+- **The API end points are supposed to be consumed by another application builtin with react library.**
 - **Allows user to create, update, delete Todo items.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -70,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- Coming Soon!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +77,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Install python-3.8 (you can use this [link](https://www.linkedin.com/learning/hands-on-introduction-python))
+- Install python-3.8 (you can follow this [link](https://www.linkedin.com/learning/hands-on-introduction-python))
 - Install pip3 python manager (run `sudo apt-get install python3-pip -y`)
 - Install python virtual environment (run `sudo apt-get install python3-venv -y` command)
 
@@ -99,7 +93,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-  - cd my-project/TodoBackend
+  - cd TodoBackend
   - source venv-todo/bin/activate
   - pip3 install django
 
@@ -112,6 +106,7 @@ To run the project, execute the following command from the root directory of thi
   python3 manage.py runserver
 ```
 
+- Then insert this [link](http://localhost:8000/api/todos/) in the address bar
 
 ### Run tests
 
@@ -119,7 +114,7 @@ To run tests, run the following command:
 
 
 ```sh
-  comming soon
+  Comming soon!
 ```
 
 
@@ -149,9 +144,9 @@ Coming soon
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- **Add Python linter**
-- **Add unit tests**
-- **Add integration tests**
+- **Adding Python linters and following best practices**
+- **Adding unit tests**
+- **Adding integration tests**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,8 +159,6 @@ Feel free to check the [issues page](https://github.com/amare1990/TodoBackend/is
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project, hit the ⭐️ and your contribution is significant.
 
@@ -183,7 +176,7 @@ I would like to thank [digitalOcean](https://www.digitalocean.com) for disclosin
 
   - Yes
 
-- **Does this project graphql to create api end points**
+- **Does this project use graphql to create api end points**
 
   - No
 
